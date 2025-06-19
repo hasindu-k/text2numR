@@ -7,14 +7,15 @@
 decode_text(nums)
 }
 \arguments{
-\item{nums}{A numeric vector (e.g., c(3, 1, 2)).}
+\item{nums}{A numeric vector with values from 1 to 26 (e.g., c(3, 1, 2)).}
 }
 \value{
-A single string (e.g., "cab").
+A single string composed of lowercase letters (e.g., "cab").
 }
 \description{
 Decode a numeric vector back to an alphabetic string.
 }
 \examples{
 decode_text(c(3, 1, 2))
+decode_text(c(1, NA, 2))  # Returns "a?b"
 }
