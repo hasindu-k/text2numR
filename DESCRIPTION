@@ -1,17 +1,14 @@
 Package: text2numR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Text to Number Encoding and Decoding Tools
 Version: 0.1.0
 Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+  person("Hasindu", "Koshitha", email = "koshithahasindu@gmail.com", role = c("aut", "cre"))
+)
+Description: Provides functions to encode lowercase alphabetic text into numeric
+    positions (a = 1, ..., z = 26) and decode numeric sequences back into text.
+    Useful for educational purposes, cryptographic exploration, and string manipulation.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
