@@ -2,9 +2,8 @@ Package: text2numR
 Type: Package
 Title: Text to Number Encoding and Decoding Tools
 Version: 0.1.0
-Authors@R: c(
+Authors@R: 
   person("Hasindu", "Koshitha", email = "koshithahasindu@gmail.com", role = c("aut", "cre"))
-)
 Description: Provides functions to encode lowercase alphabetic text into numeric
     positions (a = 1, ..., z = 26) and decode numeric sequences back into text.
     Useful for educational purposes, cryptographic exploration, and string manipulation.
